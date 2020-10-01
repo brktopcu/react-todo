@@ -77,9 +77,8 @@ class App extends React.Component {
                 onSubmit={this.addItem}
               >
                 <TextField
-                  id="outlined-basic"
+                  id="standard-basic"
                   label="Yapılacakları girin..."
-                  variant="outlined"
                   value={this.state.currentItem.text}
                   onChange={this.handleInput}
                   inputProps={{
